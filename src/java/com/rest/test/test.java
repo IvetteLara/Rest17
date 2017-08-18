@@ -46,6 +46,9 @@ public class test extends HttpServlet {
             out.println("<h1>Servlet test at RS ");
             out.println(rs.Hola("Ivette"));
             out.println("</h1>");
+            out.println("<h2>Servlet test at RS2 ");
+            out.println(rs.Hola2("Carolina"));
+            out.println("</h2>");
             out.println("</body>");
             out.println("</html>");
         }
